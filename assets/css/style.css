@@ -401,7 +401,6 @@ body.dark-theme {
 
 .components__content {
   display: grid;
-  grid-template-columns: repeat(2, 332px);
   justify-content: center;
   row-gap: 3.5rem;
 }
@@ -508,8 +507,8 @@ body.dark-theme {
   .components__content {
     display: grid;
     grid-template-columns: repeat(1, 230px);
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -602,6 +601,13 @@ body.dark-theme {
 
   .footer__copy {
     margin: 4.5rem 0 2.5rem;
+  }
+
+  .components__content {
+    display: grid;
+    grid-template-columns: repeat(2, 230px);
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
