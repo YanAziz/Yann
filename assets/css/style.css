@@ -399,7 +399,7 @@ body.dark-theme {
 
 /*==================== COMPONENTS ==================== */
 
-.components__content {
+.components__full {
   display: grid;
   grid-template-columns: repeat(2, 332px);
   justify-content: center;
@@ -505,7 +505,7 @@ body.dark-theme {
     column-gap: 1rem;
   }
 
-  .components__content {
+  .components__full {
     display: grid;
     grid-template-columns: repeat(1, 230px);
     margin-left: 1rem;
