@@ -485,10 +485,17 @@ body.dark-theme {
 /*==================== BREAKPOINTS ====================*/
 
 /*For small devices*/
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 340px) {
   .container {
     margin-left: 1rem;
     margin-right: 1rem;
+  }
+
+  .filters__content {
+    display: grid;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .profile__info {
@@ -515,7 +522,6 @@ body.dark-theme {
 /*For medium devices */
 @media screen and (min-width: 576px) {
   .gallery__content {
-    grid-template-columns: 332px;
     justify-content: center;
   }
 
@@ -523,11 +529,19 @@ body.dark-theme {
     width: 332px;
     margin: 3rem auto;
   }
+
+  .components__content {
+    display: grid;
+    grid-template-columns: repeat(2, 230px);
+    margin-left: auto;
+    margin-right: auto;
+    column-gap: 3rem;
+  }
 }
 
 @media screen and (min-width: 776px) {
   .gallery__content {
-    grid-template-columns: repeat(2, 332px);
+    grid-template-columns: repeat(2, 332px)
   }
 
   .story__content {
@@ -608,6 +622,7 @@ body.dark-theme {
     grid-template-columns: repeat(2, 230px);
     margin-left: auto;
     margin-right: auto;
+    gap: 100px;
   }
 }
 
